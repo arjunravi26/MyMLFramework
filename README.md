@@ -37,8 +37,10 @@ Replace `/path/to/your/desired/location` with the actual path on your local mach
 
 3. **Run the Project**: Finally, you can run the project using the following command:
 ```bash
-python location_of_cloned_project/MyMLFramework
+python location_of_cloned_project/MyMLFramework 'your_project_name'
 ```
 Replace `location_of_cloned_project` with the actual location where you cloned the project.
+Replace `your_project_name` with the actual project name.
+
 
 This will create the necessary project structure at your desired location. You can then start adding your machine learning code and other necessary files.

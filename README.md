@@ -3,7 +3,7 @@ A Framework for ML project.
 
 This project aims to provide a robust structure for deploying machine learning models using Flask and HTML.
 
-##Project Structure
+## Project Structure
 
 - **Flask and HTML**: Deploy your machine learning models seamlessly with our Flask and HTML integration.
 - **Exception Handling**: Robust exception handling to ensure your application runs smoothly under all circumstances.

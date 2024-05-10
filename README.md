@@ -5,7 +5,7 @@ This project aims to provide a robust structure for deploying machine learning m
 
 ##Project Structure
 
-- **Flask and HTML **: Deploy your machine learning models seamlessly with our Flask and HTML integration.
+- **Flask and HTML**: Deploy your machine learning models seamlessly with our Flask and HTML integration.
 - **Exception Handling**: Robust exception handling to ensure your application runs smoothly under all circumstances.
 - **Logging Library**: Keep track of your application's activities with our integrated logging library.
 - **Setup File**: Easy setup with our setup file. Get your application up and running in no time.

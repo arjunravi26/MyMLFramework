@@ -27,6 +27,9 @@ setup(
     packages=find_packages(),
     install_requires=get_requirements("requirements.txt"),
 )
+# Replace your_project_name with the actual name of your project, your_name with your real name,
+# and your_email with your valid email address.
+
 
     """
     app_file_path = f"{project_name}/setup.py"

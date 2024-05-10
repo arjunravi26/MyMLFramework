@@ -1,4 +1,4 @@
-#  ML Framework Project
+#  ML Project Structure Creation
 A Framework for ML project.
 
 This project aims to provide a robust structure for deploying machine learning models using Flask and HTML.

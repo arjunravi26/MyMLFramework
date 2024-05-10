@@ -6,7 +6,7 @@ This project aims to provide a robust structure for deploying machine learning m
 ## Project Structure
 
 - **Flask and HTML**: Deploy your machine learning models seamlessly with our Flask and HTML integration.
-- **Exception Handling**: Robust exception handling to ensure your application runs smoothly under all circumstances.
+- **Exception Handling**: Exception handling to ensure your application runs smoothly under all circumstances.
 - **Logging Library**: Keep track of your application's activities with our integrated logging library.
 - **Setup File**: Easy setup with our setup file. Get your application up and running in no time.
 - **Index.html and app.py**: Basic files to kickstart your application.
@@ -19,10 +19,7 @@ Other predefined structure including essential files and folders:
   - **component**: An empty folder for you to add your project components.
   - **pipeline**: An empty folder for you to manage your data pipelines.
 - **templates**: An empty templates folder for your HTML templates.
-- **artifacts**: A dedicated folder to store data and result models.
-
-Thank you for your support and we look forward to seeing what you will build with our ML Framework Project!
-
+- **artifacts**: A dedicated folder to store data and pickle files.
 
 **Here's a step-by-step guide on how to get started with the ML Framework Project:**
 

@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from create_project import CreateProjectStructure
 import sys
 

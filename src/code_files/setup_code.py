@@ -2,22 +2,13 @@ def setup_code(project_name):
     setup_code = """from setuptools import find_packages, setup
 from typing import List
 
-HYPEN_E_DOT = "-e ."
-
-
 def get_requirements(file_path: str) -> List[str]:
-    '''
-    this function will return the list the requirements
-    '''
-    requirements = []
     with open(file_path) as file_obj:
         requirements = file_obj.readlines()
         requirements = [req.replace("\\n", "") for req in requirements]
-        if HYPEN_E_DOT in requirements:
-            requirements.remove(HYPEN_E_DOT)
-
+        if "-e ." in requirements:
+            requirements.remove("-e .")
     return requirements
-
 
 setup(
     name="your_project_name",
@@ -27,11 +18,7 @@ setup(
     packages=find_packages(),
     install_requires=get_requirements("requirements.txt"),
 )
-# Replace your_project_name with the actual name of your project, your_name with your real name,
-# and your_email with your valid email address.
-
-
-    """
-    app_file_path = f"{project_name}/setup.py"
-    with open(app_file_path, "w") as file:
+# Replace "your_project_name", "your_name", and "your_email" with your actual project name, your name, and your email 
+"""
+    with open(f"{project_name}/setup.py", "w") as file:
         file.write(setup_code)

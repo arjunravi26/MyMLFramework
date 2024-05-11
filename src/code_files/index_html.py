@@ -7,10 +7,9 @@ def index_code(project_name):
     <title>ML Project</title>
 </head>
 <body>
-    <h1>Welcome to the Ml Project</h1>
+    <h1>Welcome to the ML Project</h1>
 </body>
 </html>
 """
-    file_path = f'{project_name}/templates/index.html'
-    with open(file_path,'w') as file:
+    with open(f'{project_name}/templates/index.html', 'w') as file:
         file.write(index_code)

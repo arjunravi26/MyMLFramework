@@ -15,8 +15,6 @@ format="[%(asctime)s] %(lineno)d %(name)s - %(levelname)s - %(message)s",
 level=logging.INFO,
 )
     """
-
-    logger_file_path = f'{project_name}/src/logger.py'
-
-    with open(logger_file_path, 'w') as file:
+    with open(f'{project_name}/src/logger.py', 'w') as file:
         file.write(logger_code)
+

@@ -33,11 +33,11 @@ git clone https://github.com/arjunravi26/MyMLFramework.git
 ```bash
 cd /path/to/your/desired/location
 ```
-Replace `/path/to/your/desired/location` with the actual path on your local machine.
+Replace `/path/to/your/desired/location` with the actual path on your local machine where you want to create the folder for your machine learning project.
 
 3. **Run the Project**: Finally, you can run the project using the following command:
 ```bash
-python location_of_cloned_project/MyMLFramework 'your_project_name'
+python location_of_cloned_project/MyMLFramework/main.py 'your_project_name'
 ```
 Replace `location_of_cloned_project` with the actual location where you cloned the project.
 Replace `your_project_name` with the actual project name.

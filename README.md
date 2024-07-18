@@ -49,4 +49,4 @@ This will create the necessary project structure at your desired location. You c
 Contributions are welcome! Feel free to submit a pull request or create an issue.
 
 ## Contact
-If you have any questions or need support, please contact me at arjunravi1523@gmail.com.
+If you have any questions or need support, please contact me at arjunravi726@gmail.com.

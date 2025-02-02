@@ -1,5 +1,5 @@
 #  ML Project Structure Creation
-A Framework for ML project that automatically create.
+A Framework for ML project that automatically create end-end project structure.
 
 This project aims to provide a robust structure for deploying machine learning models using Flask and HTML.
 
